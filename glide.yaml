@@ -1,0 +1,6 @@
+package: github.com/smeriwether/pivotal-commenter
+import:
+- package: gopkg.in/salsita/go-pivotaltracker.v1
+  subpackages:
+  - /v5/pivotal
+- package: github.com/joho/godotenv
